@@ -24,7 +24,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Megh-Portfolio</title>
+
+    <!-- New Link for react | Megh -->
+    
+     <!-- google font -->
+     <link href="//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+     rel="stylesheet">
+ <!-- Template CSS Style link -->
+ <link rel="stylesheet" href="assets/css/style-starter.css">
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +49,51 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+  </button>
+  <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+          scrollFunction()
+      };
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("movetop").style.display = "block";
+          } else {
+              document.getElementById("movetop").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <!-- //move top -->
+
+    <!-- New Link Add | Megh -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- libhtbox -->
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <!-- libhtbox -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+
+    
   </body>
 </html>
