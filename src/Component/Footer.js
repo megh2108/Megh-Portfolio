@@ -10,7 +10,8 @@ function Footer() {
         <div className="container pt-4">
             <div className="mx-auto" style={{'max-width': '600px' }} >
                 <Link to="/Home" className="footer-logo py-1">
-                    <i className="fas fa-bold"></i>.
+                    {/* <i className="fas fa-bold"></i>. */}
+                    Megh
                 </Link>
                 <p className="mt-4 text-white">Social Media Handelers 
                     </p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 
 function Qualification() {
@@ -21,7 +21,7 @@ function Qualification() {
                                 <h2>B.Tech in Computer Engineering</h2>
                             </div>
                             <div className="description">
-                                <p>Birla Vishvakarma Mahabidyalays</p>
+                                <p>Birla Vishvakarma Mahavidyalaya</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 2020 - 2024</h6>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ function Qualification() {
                                 <h2>HSC Standard</h2>
                             </div>
                             <div className="description">
-                                <p>D.N. High School</p>
+                                <p>D. N. High School</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 2020</h6>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Qualification() {
                                 <h2>SSC Standard</h2>
                             </div>
                             <div className="description">
-                                <p>D.N. High School</p>
+                                <p>D. N. High School</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 2018</h6>
                             </div>
                         </div>
@@ -54,8 +54,17 @@ function Qualification() {
                                 <h2>Summer Intern - 2023</h2>
                             </div>
                             <div className="description">
+                                <p>Conveyor Industry</p>
+                                <h6><i className="fas fa-calendar-alt"></i> 1 June, 2023 - Current</h6>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <div className="title">
+                                <h2>Summer Intern - 2023</h2>
+                            </div>
+                            <div className="description">
                                 <p>Code Potato Software Pvt. Ltd.</p>
-                                <h6><i className="fas fa-calendar-alt"></i> May 2023 - Current</h6>
+                                <h6><i className="fas fa-calendar-alt"></i> 15 May, 2023 - 31 May, 2023</h6>
                             </div>
                         </div>
                         <div className="column">
@@ -64,18 +73,10 @@ function Qualification() {
                             </div>
                             <div className="description">
                                 <p>Code Potato Software Pvt. Ltd.</p>
-                                <h6><i className="fas fa-calendar-alt"></i> May 2022 - June 2022</h6>
+                                <h6><i className="fas fa-calendar-alt"></i> 23 May, 2022 - 24 June, 2022</h6>
                             </div>
                         </div>
-                        {/* <div className="column">
-                            <div className="title">
-                                <h2>HTML Developer</h2>
-                            </div>
-                            <div className="description">
-                                <p>Agile info</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2017 - 2018</h6>
-                            </div>
-                        </div> */}
+                        
                     </div>
                 </div>
             </div>

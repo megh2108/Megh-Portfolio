@@ -16,9 +16,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Banner /> */}
-      {/* <About /> */}
-
+    
       <Routes>
 
         <Route path="/Home" exact element={<Banner /> } />

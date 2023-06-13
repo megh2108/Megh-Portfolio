@@ -19582,6 +19582,11 @@ ul.single-info li p {
   grid-template-columns: 1fr auto;
   width: 60%;
 }
+.w3l-progress .info3_1 h6.progress-tittle {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 80%;
+}
 
 .w3l-progress .info4 h6.progress-tittle {
   display: grid;

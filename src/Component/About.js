@@ -18,8 +18,8 @@ function About() {
                 <div className="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
                     <h5 className="title-small mb-1">My Intro</h5>
                     <h3 className="title-style">About Me</h3>
-                    <p className="mt-3">I'm Megh Shah, Pursuing Computer Engineering From Birla Vishvakarma Mahavidyalay.
-                     My short term goal is to complete B.Tech with 8.50 CPI & Long term goal is to become good Software Developer. </p>
+                    <p className="mt-3">I'm Megh Shah, Pursuing B.Tech in Computer Engineering From Birla Vishvakarma Mahavidyalay.
+                     My short term goal is to complete B.Tech with 9 CPI & Long term goal is to become good Software Developer. </p>
                     <div className="my-info mt-md-5 mt-4">
                         <ul className="single-info">
                             <li className="name-style">Name</li>

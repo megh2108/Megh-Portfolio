@@ -74,7 +74,8 @@ function Header() {
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <Link className="navbar-brand" to="/Home">
-                    <i className="fas fa-bold"></i>.
+                    {/* <i className="fas fa-bold"></i>. */}
+                    Megh 
                 </Link>
                 <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
