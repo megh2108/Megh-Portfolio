@@ -8,6 +8,7 @@ import Qualification from "./Component/Qualification";
 import Skill from "./Component/Skill";
 import Project from "./Component/Project";
 import Contact from "./Component/Contact";
+import ScrollToTop from "./Component/ScrollToTop";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -15,6 +16,9 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
+
+      <ScrollToTop />
+
       <Header />
     
       <Routes>
