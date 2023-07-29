@@ -24,23 +24,23 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 mt-md-0 mt-4">
-                        <div className="feature-gd icon-vilot">
-                            <div className="icon">
-                                <i className="fas fa-mobile-alt"></i>
-                            </div>
-                            <div className="icon-info">
-                                <Link to="#url">Grpahics<br/> Designing</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                    {/* <div className="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
                         <div className="feature-gd icon-blue">
                             <div className="icon">
                                 <i className="fab fa-android"></i>
                             </div>
                             <div className="icon-info">
                                 <Link to="#url">Android app<br/> development</Link>
+                            </div>
+                        </div>
+                    </div> */}
+                    <div className="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                        <div className="feature-gd icon-light-green">
+                            <div className="icon">
+                                <i className="fab fa-react"></i>
+                            </div>
+                            <div className="icon-info">
+                                <Link to="#url">React <br/> development </Link>
                             </div>
                         </div>
                     </div>
@@ -54,17 +54,17 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
-                        <div className="feature-gd icon-light-green">
+                    <div className="col-lg-3 col-md-6 mt-md-0 mt-4">
+                        <div className="feature-gd icon-vilot">
                             <div className="icon">
-                                <i className="fab fa-react"></i>
+                                <i className="fas fa-mobile-alt"></i>
                             </div>
                             <div className="icon-info">
-                                <Link to="#url">React <br/> development </Link>
+                                <Link to="#url">Grpahics<br/> Designing</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
+                    {/* <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
                         <div className="feature-gd icon-light-blue">
                             <div className="icon">
                                 <i className="fab fa-java"></i>
@@ -73,8 +73,8 @@ function Project() {
                                 <Link to="#url"> Java<br/> programming</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
                         <div className="feature-gd icon-dark-green">
                             <div className="icon">
                                 <i className="fab fa-node"></i>
@@ -83,8 +83,8 @@ function Project() {
                                 <Link to="#url">Node<br/> development</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-6 mt-md-5 mt-4">
                         <div className="feature-gd icon-pink">
                             <div className="icon">
                                 <i className="fas fa-code-branch"></i>
@@ -93,7 +93,7 @@ function Project() {
                                 <Link to="#url">.net program<br/> development</Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* <div className="text-center mt-5">

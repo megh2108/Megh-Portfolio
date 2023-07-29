@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 function Qualification() {
@@ -21,26 +21,26 @@ function Qualification() {
                                 <h2>B.Tech in Computer Engineering</h2>
                             </div>
                             <div className="description">
-                                <p>Birla Vishvakarma Mahavidyalaya</p>
+                                <p>Birla Vishvakarma Mahavidyalaya, V. V. Nagar</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 2020 - 2024</h6>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>HSC Standard</h2>
+                                <h2>Higher Secondary (XII) - SCIENCE - GSEB</h2>
                             </div>
                             <div className="description">
-                                <p>D. N. High School</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2020</h6>
+                                <p>D. N. High School, Anand</p>
+                                <h6><i className="fas fa-calendar-alt"></i>March - 2020</h6>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>SSC Standard</h2>
+                                <h2>Secondary (X) - GSEB</h2>
                             </div>
                             <div className="description">
-                                <p>D. N. High School</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2018</h6>
+                                <p>D. N. High School, Anand</p>
+                                <h6><i className="fas fa-calendar-alt"></i>March - 2018</h6>
                             </div>
                         </div>
                     </div>
@@ -51,28 +51,28 @@ function Qualification() {
                     <div className="timeline">
                         <div className="column">
                             <div className="title">
-                                <h2>Summer Intern - 2023</h2>
+                                <h2>Advance Web Development</h2>
                             </div>
                             <div className="description">
-                                <p>Conveyor Industry</p>
+                                <p>Conveyor Industries, Anand</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 1 June, 2023 - 30 June, 2023</h6>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>Summer Intern - 2023</h2>
+                                <h2>Web Development & IOT</h2>
                             </div>
                             <div className="description">
-                                <p>Code Potato Software Pvt. Ltd.</p>
+                                <p>Code Potato Software Pvt. Ltd., Anand</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 15 May, 2023 - 31 May, 2023</h6>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>Summer Intern - 2022</h2>
+                                <h2>PHP Development</h2>
                             </div>
                             <div className="description">
-                                <p>Code Potato Software Pvt. Ltd.</p>
+                                <p>Code Potato Software Pvt. Ltd., Anand</p>
                                 <h6><i className="fas fa-calendar-alt"></i> 23 May, 2022 - 24 June, 2022</h6>
                             </div>
                         </div>
@@ -81,35 +81,44 @@ function Qualification() {
                 </div>
             </div>
 
-            <div className="row mt-5">
-                <div className="col-lg-6 mt-3">
+            <div className="row mt-5" >
+                <div className="col-lg-8 mt-3">
                     <h5 className="sub-title-timeline"><i className="fas fa-graduation-cap"></i> Projects</h5>
                     <div className="timeline">
                         <div className="column">
                             <div className="title">
-                                <h2>B.Tech in Computer Engineering</h2>
+                                <h2>Conveyor Website</h2>
                             </div>
                             <div className="description">
-                                <p>Birla Vishvakarma Mahavidyalaya</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2020 - 2024</h6>
+                                <p>HTML, CSS, JavaScript, ReactJs</p>
+                                <p>Website Link : <Link to="https://conveyorindustries.in/" target="_blank" style={{'color':'blue'}}>https://conveyorindustries.in/</Link></p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>HSC Standard</h2>
+                                <h2>Portfolio Website</h2>
                             </div>
                             <div className="description">
-                                <p>D. N. High School</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2020</h6>
+                                <p>HTML, CSS, JavaScript, ReactJs</p>
+                                <p>Website Link : <Link to="https://megh-portfolio.vercel.app/" target="_blank" style={{'color':'blue'}}>https://megh-portfolio.vercel.app/</Link></p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="title">
-                                <h2>SSC Standard</h2>
+                                <h2>Invoice Generator</h2>
                             </div>
                             <div className="description">
-                                <p>D. N. High School</p>
-                                <h6><i className="fas fa-calendar-alt"></i> 2018</h6>
+                                <p>HTML, CSS, JavaScript, PHP, SQL Databse</p>
+                                <p>Github Reposatory Link : <Link to="https://github.com/megh2108/Invoice-Generator-Website" target="_blank" style={{'color':'blue'}}>Invoice-Generator-Website</Link></p>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <div className="title">
+                                <h2>Temple Website </h2>
+                            </div>
+                            <div className="description">
+                                <p>HTML, CSS, JavaScript, PHP, SQL Databse</p>
+                                <p>Github Reposatory Link : <Link to="https://github.com/megh2108/Temple-Website" target="_blank" style={{'color':'blue'}}>Temple-Website</Link></p>
                             </div>
                         </div>
                     </div>
