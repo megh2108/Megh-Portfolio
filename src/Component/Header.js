@@ -65,6 +65,15 @@ function Header() {
         })
     });
 
+    $(".navbar-nav Link").on("click", function () {
+        if ($(window).width() <= 991) { // Close the mobile navbar only if the window width is less than or equal to 991px
+          $("header").removeClass("active");
+          $('body').removeClass('noscroll'); // Remove noscroll class when closing the navbar
+        }
+      });
+
+    
+
     
 
   return (
