@@ -26,22 +26,14 @@ function App() {
         <Route path="/Home" exact element={<Banner /> } />
         <Route path="/About" exact element={<About />} />
         <Route path="/Qualification" exact element={<Qualification />} />
-
-
-        {/* <Route path="/Skills" exact element={<Skill />} /> */}
         <Route path="Skills" exact element={[<Skill/>,<Project/>]} />
         <Route path="/Contact" exact element={<Contact />} />
-        {/* <Route path="/About" exact element={<About />} /> */}
-        {/* <Route path="/Department" exact element={<Department />} /> */}
         <Route path="/" exact element={<Banner /> } />
 
 
       </Routes>
 
-      {/* <Qualification /> */}
-      {/* <Skill /> */}
-      {/* <Project /> */}
-      {/* <Contact /> */}
+      
 
       <Footer />
 

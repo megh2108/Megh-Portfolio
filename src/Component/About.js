@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 
 
 function About() {
+
+
+
   return (
     <>
       {/* <!-- about section --> */}
@@ -50,7 +53,7 @@ function About() {
                             </li>
                         </ul>
                     </div>
-                    <Link to="#download" className="btn btn-style mt-5">Download CV</Link>
+                    <Link to="https://drive.google.com/file/d/1NLTMSHIJwZJD8jIUEXnYy9RqQBi8wbKz/view?usp=sharing" target="_blank" className="btn btn-style mt-5">Download CV</Link>
                 </div>
             </div>
         </div>

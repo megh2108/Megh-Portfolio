@@ -16,7 +16,7 @@ function Banner() {
                             <br/> Explore my portfolio to witness my proficiency in both web development and graphics design.
                             </p>    
                             <div className="d-flex align-items-center buttons-banner mt-sm-5 mt-4">
-                                <Link to="/Home" className="btn btn-style me-2">Hire Me</Link>
+                                <Link to="/About" className="btn btn-style me-2">About Me</Link>
                             </div>
                         </div>
                         <div className="col-md-6">
