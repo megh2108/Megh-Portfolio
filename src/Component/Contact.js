@@ -20,7 +20,7 @@ function Contact() {
                         much info, as possible so
                         we can get the most out of our first catch-up.</p>
                     <div className="cont-details">
-                        <p><i className="fas fa-map-marker-alt"></i>18, Aksharkunj Society, Opp. Gopi CInema    </p>
+                        {/* <p><i className="fas fa-map-marker-alt"></i>18, Aksharkunj Society, Opp. Gopi CInema    </p> */}
                         <p><i className="fas fa-phone-alt"></i><Link to="tel:+1(21) 234 4567">+91 6352764092</Link></p>
                         <p><i className="fas fa-envelope-open-text"></i><Link to="mailto:example@mail.com"
                                 className="mail">meghshah0410@gmail.com</Link></p>

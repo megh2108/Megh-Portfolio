@@ -12,11 +12,9 @@ function Banner() {
                         <div className="col-md-6 banner-left pe-xl-5">
                             <h4>Hi, I'm Megh Shah</h4>
                             <h3 className="mb-3 mt-1">Developer</h3>
-                            <p className="banner-sub me-md-5">Welcome to my portfolio website, <br/> 
-                            Because of my technical, logical reasoning skills and my capability to learn something new,
-                            I see myself as a Good Website Developer, Web Designer and Graphics Designer after my Graduation.
-                            
-                            </p>    
+                            <p className="banner-sub me-md-5">Enthusiastic Software Engineer with hands-on experience in creating web applications and mobile applications. Experienced in using Azure DevOps for efficient development workflows and skilled in ensuring software quality through effective testing practices.
+
+                            </p>
                             <div className="d-flex align-items-center buttons-banner mt-sm-5 mt-4">
                                 <Link to="/About" className="btn btn-style me-2">About Me</Link>
                             </div>
@@ -32,9 +30,9 @@ function Banner() {
                 {/* <div className="icon-effects-w3-2 text-right">
                     <img src="assets/images/icon3.png" alt="" className="img-fluid" />
                 </div> */}
-                <div className="icon-effects-w3-3 text-right">
+                {/* <div className="icon-effects-w3-3 text-right">
                     <img src="assets/images/icon1.png" alt="" className="img-fluid" />
-                </div>
+                </div> */}
                 <div className="icon-effects-w3-4 text-right">
                     <img src="assets/images/icon6.png" alt="" className="img-fluid" />
                 </div>

@@ -17,27 +17,27 @@ function Footer() {
                     </p>
                 <div className="social-icons-main mt-4 pb-3">
                     <ul className="social-icons3">
-                        <li>
+                        <li className='m-1'>
                             <Link to="https://www.facebook.com/megh.shah.338?mibextid=ZbWKwL" target="_blank">
                                 <i className="fab fa-facebook-f"></i>
                             </Link>
                         </li>
-                        <li>
+                        <li className='m-1'>
                             <Link to="https://twitter.com/Meghshah04?t=CllsgckkLRBABKkRx4ljFw&s=08" target="_blank">
                                 <i className="fab fa-twitter"></i>
                             </Link>
                         </li>
-                        <li>
+                        <li className='m-1'>
                             <Link to="https://www.linkedin.com/in/megh-shah-a19813205" target="_blank">
                                 <i className="fab fa-linkedin-in"></i>
                             </Link>
                         </li>
-                        <li>
+                        <li className='m-1'>
                             <Link to="https://github.com/megh2108" target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </li>
-                        <li>
+                        <li className='m-1'>
                             <Link to="https://instagram.com/megh___04?igshid=OTk0YzhjMDVlZA==" target="_blank">
                                 <i className="fab fa-instagram"></i>
                             </Link>

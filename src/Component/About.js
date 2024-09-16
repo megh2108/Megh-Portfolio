@@ -21,9 +21,7 @@ function About() {
                 <div className="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
                     <h5 className="title-small mb-1">My Intro</h5>
                     <h3 className="title-style">About Me</h3>
-                    <p className="mt-3">I'm Megh Shah, Pursuing B.Tech in Computer Engineering From Birla Vishvakarma Mahavidyalay.
-                    My area of interest is Frontend Development, Backend Development & Graphics Desiging.Technology I used in Frontend Development is HTML, CSS, JavaScript, React JS , as well as in Backend Development is PHP, Node JS & MySQL, MongoDB Database.Graphics Desiging I used Canva & Adobe Illustrator.
-                    My short term goal is to placed in Good company & Long term goal is grow my skills, used my knowledge in usefull things & to become good Software Developer. </p>
+                    <p className="mt-3">I have experience in full-stack development using the MERN stack, Angular 16 and .NET technologies like .NET Core 6(MVC & API), .NET Framework  4.8(C# MVC), ADO .NET which makes me stand out. I worked on real projects like HealthEase, improving healthcare management systems and Training Record System. My ability to handle both backend and frontend tasks makes me flexible and well-rounded. Additionally, I have experience in unit testing using frameworks like Chai and Mocha for Node.js, XUnit, NUnit, msTest for .NET, and Jasmine and Karma for Angular, ensuring code quality. Utilized Azure DevOps for code contributions, CI/CD pipelines, and project management. Developed strong teamwork skills by collaborating with peers on various projects, ensuring efficient project execution and delivery.  </p>
                     <div className="my-info mt-md-5 mt-4">
                         <ul className="single-info">
                             <li className="name-style">Name</li>
@@ -32,13 +30,7 @@ function About() {
                                 <p>Megh Shah</p>
                             </li>
                         </ul>
-                        <ul className="single-info">
-                            <li className="name-style">Age</li>
-                            <li>:</li>
-                            <li>
-                                <p>21 Years</p>
-                            </li>
-                        </ul>
+                       
                         <ul className="single-info">
                             <li className="name-style">Mobile</li>
                             <li>:</li>
@@ -50,11 +42,11 @@ function About() {
                             <li className="name-style">Email</li>
                             <li>:</li>
                             <li>
-                                <p><Link to="mailto:maryateer@mail.com">meghshah0410@gmail.com</Link></p>
+                                <p><Link to="mailto:meghshah0410@gmail.com">meghshah0410@gmail.com</Link></p>
                             </li>
                         </ul>
                     </div>
-                    <Link to="https://drive.google.com/file/d/1NLTMSHIJwZJD8jIUEXnYy9RqQBi8wbKz/view?usp=sharing" target="_blank" className="btn btn-style mt-5">Download CV</Link>
+                    <Link to="https://drive.google.com/file/d/1f2e0fIF_Qss3rkmqHUEH-wJbuYukVZDn/view?usp=sharing" target="_blank" className="btn btn-style mt-5">Download CV</Link>
                 </div>
             </div>
         </div>
