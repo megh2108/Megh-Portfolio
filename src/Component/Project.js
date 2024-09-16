@@ -19,6 +19,7 @@ function Project() {
                             <div className="icon">
                                 <i className="fas fa-laptop"></i>
                             </div>
+                            {/*  */}
                             <div className="icon-info">
                                 <Link to="#url">Web design<br/> and development </Link>
                             </div>
